@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+        <div class="clearfix score-box">
+            <div class="disable-selection clearfix" id="scoreX">X <span id="score-value-X"></span></div>
+            <div class="disable-selection clearfix" id="scoreO">O <span id="score-value-O"></span></div>
+        </div>
+        <div id="starting-lead" class="text-center disable-selection">Select X or O</div>
+        <div id="turn" class="text-center"></div>
+        <div id="board" class="clearfix">
+            <div class="box text-center" id="box1"><div class="box-input" id="0"></div></div>
+            <div class="box text-center" id="box2"><div class="box-input" id="1"></div></div>
+            <div class="box text-center" id="box3"><div class="box-input" id="2"></div></div>
+            <div class="box text-center" id="box4"><div class="box-input" id="3"></div></div>
+            <div class="box text-center" id="box5"><div class="box-input" id="4"></div></div>
+            <div class="box text-center" id="box6"><div class="box-input" id="5"></div></div>
+            <div class="box text-center" id="box7"><div class="box-input" id="6"></div></div>
+            <div class="box text-center" id="box8"><div class="box-input" id="7"></div></div>
+            <div class="box text-center" id="box9"><div class="box-input" id="8"></div></div>
+        </div>
+        <div id="start-reset" class="text-center disable-selection">Start Game</div>
+        
+        <div id="difficulty" class="clearfix">
+            <div id="easy" class="text-center">Easy</div>
+            <div id="medium" class="text-center">Medium</div>
+            <div id="hard" class="text-center">Hard</div>
+        </div>
+        <div id="end" class="text-center"></div> 
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>
