@@ -2,7 +2,7 @@
 A simple Tic Tac Toe game against computer with 3 modes of difficulties i.e. **Easy, Medium and Hard**.
 
 
-## Screenshots
+## Screenshot 📸
 
 ![App Screenshot](GameScreenshot.PNG)
 
@@ -22,13 +22,13 @@ A simple Tic Tac Toe game against computer with 3 modes of difficulties i.e. **E
     * Select the difficulty level i.e. **Easy, Medium or Hard**.
     * Click on **Start Game** and enjoy playing.
     * Once done playing, click on **Reset Game** or the game will reset by itself.
-
-## Tech Stack
+ 
+## Tech Stack 💻
 
 **Used:** JavaScript, CSS, HTML
 
   
-## Authors
+## Authors 👩‍💻
 
 - [@Sahethi](https://www.github.com/Sahethi)
 
